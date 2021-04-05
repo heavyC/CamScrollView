@@ -1,0 +1,6 @@
+framework module CamScrollView {
+  umbrella header "CamScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}

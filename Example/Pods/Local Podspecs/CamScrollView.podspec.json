@@ -1,0 +1,22 @@
+{
+  "name": "CamScrollView",
+  "version": "0.1.0",
+  "summary": "A short description of CamScrollView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/heavyC/CamScrollView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "heavyC": "cameron_geiser@yahoo.com"
+  },
+  "source": {
+    "git": "https://github.com/heavyC/CamScrollView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CamScrollView/Classes/**/*"
+}

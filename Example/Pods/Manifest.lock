@@ -1,0 +1,16 @@
+PODS:
+  - CamScrollView (0.1.0)
+
+DEPENDENCIES:
+  - CamScrollView (from `../`)
+
+EXTERNAL SOURCES:
+  CamScrollView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CamScrollView: 382d1316f3f854976083fd6e83ab09b50e73c5e0
+
+PODFILE CHECKSUM: d398254b8fa6ce491ac0db9d707f48ead095130d
+
+COCOAPODS: 1.10.1
