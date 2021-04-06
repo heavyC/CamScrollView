@@ -6,6 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/CamScrollView.svg?style=flat)](https://cocoapods.org/pods/CamScrollView)
 
 ## Example
+main
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
