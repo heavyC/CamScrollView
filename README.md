@@ -1,4 +1,4 @@
-# CamScrollView
+# CamScrollView1
 
 [![CI Status](https://img.shields.io/travis/heavyC/CamScrollView.svg?style=flat)](https://travis-ci.org/heavyC/CamScrollView)
 [![Version](https://img.shields.io/cocoapods/v/CamScrollView.svg?style=flat)](https://cocoapods.org/pods/CamScrollView)
@@ -6,7 +6,6 @@
 [![Platform](https://img.shields.io/cocoapods/p/CamScrollView.svg?style=flat)](https://cocoapods.org/pods/CamScrollView)
 
 ## Example
-main
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 

@@ -11,6 +11,10 @@
 		179DD82A9BC0C0C9C77182E348415C39 /* Pods-CamScrollView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 746ED040E4D19CD0390AFC4BD989D65E /* Pods-CamScrollView_Tests-dummy.m */; };
 		19FCB97C240A10C7C06D75167E36EA6B /* Pods-CamScrollView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A28D64149CDDE2776949737DD2DC6411 /* Pods-CamScrollView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7AA2F806272C356EFA7AF0DBF5D55B73 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AE315F68F3E245881D8DBC869491FE /* ReplaceMe.swift */; };
+		7E5CA232261CD18000DB9C52 /* DScrollViewElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5CA22E261CD18000DB9C52 /* DScrollViewElement.swift */; };
+		7E5CA233261CD18000DB9C52 /* DScrollViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5CA22F261CD18000DB9C52 /* DScrollViewContainer.swift */; };
+		7E5CA234261CD18000DB9C52 /* DScrollView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5CA230261CD18000DB9C52 /* DScrollView+.swift */; };
+		7E5CA235261CD18000DB9C52 /* DScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5CA231261CD18000DB9C52 /* DScrollView.swift */; };
 		815E95AF5BC545656A22AD2E24BBC88D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9CCBBB724466A77D33A402A9238F30E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		AAD7BD199AE52A6CD29DB9E6496FC063 /* Pods-CamScrollView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B81031132736C7A8B1528DD468EE67EE /* Pods-CamScrollView_Example-dummy.m */; };
@@ -42,20 +46,24 @@
 		1236E5C46A3632E2B62E07641B760F44 /* CamScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CamScrollView-prefix.pch"; sourceTree = "<group>"; };
 		300AD5D96C2BDFE87C0E79658E563991 /* Pods-CamScrollView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CamScrollView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		31F751C671AC28141934199A482D2E5E /* Pods-CamScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CamScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		39222EE7186E6A49BAEFC50915AE6782 /* CamScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CamScrollView.framework; path = CamScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39222EE7186E6A49BAEFC50915AE6782 /* CamScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CamScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B421B9D7AE3D6711ED52169F202369A /* Pods-CamScrollView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CamScrollView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		51AE315F68F3E245881D8DBC869491FE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CamScrollView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		558FE9A5DE18B1D7D80B3EEADE6A1661 /* Pods-CamScrollView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CamScrollView_Example.modulemap"; sourceTree = "<group>"; };
-		64AB1593689D02189534F9970721A204 /* Pods_CamScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CamScrollView_Tests.framework; path = "Pods-CamScrollView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64AB1593689D02189534F9970721A204 /* Pods_CamScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CamScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F0E94E3AF018A5A02A92A5D3EC47E22 /* CamScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CamScrollView-umbrella.h"; sourceTree = "<group>"; };
-		716C9D3C7DDD3ECA1886455955D32B84 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		716C9D3C7DDD3ECA1886455955D32B84 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		746ED040E4D19CD0390AFC4BD989D65E /* Pods-CamScrollView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CamScrollView_Tests-dummy.m"; sourceTree = "<group>"; };
+		7E5CA22E261CD18000DB9C52 /* DScrollViewElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DScrollViewElement.swift; sourceTree = "<group>"; };
+		7E5CA22F261CD18000DB9C52 /* DScrollViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DScrollViewContainer.swift; sourceTree = "<group>"; };
+		7E5CA230261CD18000DB9C52 /* DScrollView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DScrollView+.swift"; sourceTree = "<group>"; };
+		7E5CA231261CD18000DB9C52 /* DScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DScrollView.swift; sourceTree = "<group>"; };
 		7EA3F2CEC4CB0E659BEC490DAEFD7685 /* Pods-CamScrollView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CamScrollView_Example-Info.plist"; sourceTree = "<group>"; };
 		911BD72482112964036E66DFDE931EE9 /* Pods-CamScrollView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CamScrollView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		93CB96562DFD7CCB1960695E129BE77D /* CamScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CamScrollView.debug.xcconfig; sourceTree = "<group>"; };
 		99C7C05F881B04AF45D2FE9459640A97 /* Pods-CamScrollView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CamScrollView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A28D64149CDDE2776949737DD2DC6411 /* Pods-CamScrollView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CamScrollView_Example-umbrella.h"; sourceTree = "<group>"; };
 		A410D1DFF650D0BC04C63C7C5DAFF222 /* CamScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CamScrollView.modulemap; sourceTree = "<group>"; };
 		A435E70323267A21B336EAE25870D223 /* Pods-CamScrollView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CamScrollView_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -66,10 +74,10 @@
 		B81031132736C7A8B1528DD468EE67EE /* Pods-CamScrollView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CamScrollView_Example-dummy.m"; sourceTree = "<group>"; };
 		C036D3ED0239C529E1E126A3293AB72F /* Pods-CamScrollView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CamScrollView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CBC48D2E3C14186EF2D21B593016226D /* CamScrollView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CamScrollView-Info.plist"; sourceTree = "<group>"; };
-		CD8B675FE1EE41BAEA74BEB803F30F87 /* CamScrollView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CamScrollView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CD8B675FE1EE41BAEA74BEB803F30F87 /* CamScrollView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CamScrollView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F238D2EFC8803A16F016D36F66B4F68B /* Pods-CamScrollView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CamScrollView_Tests.modulemap"; sourceTree = "<group>"; };
-		F7E262E073B2EB7A1DA73C85A9B484AD /* Pods_CamScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CamScrollView_Example.framework; path = "Pods-CamScrollView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB1FD8E4F1F6183DE759462BDDAF2B6A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F7E262E073B2EB7A1DA73C85A9B484AD /* Pods_CamScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CamScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1FD8E4F1F6183DE759462BDDAF2B6A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +177,7 @@
 		6E76D044CBF6FAA9FA5FD7E252E208B6 /* CamScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				7E5CA22D261CD0A500DB9C52 /* Source */,
 				51AE315F68F3E245881D8DBC869491FE /* ReplaceMe.swift */,
 				79116303E71A4F03E6BEC559C71D42EB /* Pod */,
 				30845195FCEDA8FD31E81A404187EB79 /* Support Files */,
@@ -185,6 +194,17 @@
 				FB1FD8E4F1F6183DE759462BDDAF2B6A /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		7E5CA22D261CD0A500DB9C52 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				7E5CA231261CD18000DB9C52 /* DScrollView.swift */,
+				7E5CA230261CD18000DB9C52 /* DScrollView+.swift */,
+				7E5CA22F261CD18000DB9C52 /* DScrollViewContainer.swift */,
+				7E5CA22E261CD18000DB9C52 /* DScrollViewElement.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		CC4EE12B45C5D4DD0B6C0DEB7C9F4DCD /* Pods-CamScrollView_Example */ = {
@@ -367,8 +387,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E5CA235261CD18000DB9C52 /* DScrollView.swift in Sources */,
+				7E5CA232261CD18000DB9C52 /* DScrollViewElement.swift in Sources */,
 				D2E5112751988E7A4833DA93F1A134B5 /* CamScrollView-dummy.m in Sources */,
+				7E5CA233261CD18000DB9C52 /* DScrollViewContainer.swift in Sources */,
 				7AA2F806272C356EFA7AF0DBF5D55B73 /* ReplaceMe.swift in Sources */,
+				7E5CA234261CD18000DB9C52 /* DScrollView+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +483,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -487,7 +511,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CamScrollView/CamScrollView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CamScrollView/CamScrollView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CamScrollView/CamScrollView.modulemap";
 				PRODUCT_MODULE_NAME = CamScrollView;
@@ -495,7 +519,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -518,7 +542,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CamScrollView_Example/Pods-CamScrollView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CamScrollView_Example/Pods-CamScrollView_Example.modulemap";
@@ -550,7 +574,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CamScrollView/CamScrollView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CamScrollView/CamScrollView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CamScrollView/CamScrollView.modulemap";
 				PRODUCT_MODULE_NAME = CamScrollView;
@@ -558,7 +582,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -580,7 +604,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CamScrollView_Tests/Pods-CamScrollView_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CamScrollView_Tests/Pods-CamScrollView_Tests.modulemap";
@@ -612,7 +636,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CamScrollView_Tests/Pods-CamScrollView_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CamScrollView_Tests/Pods-CamScrollView_Tests.modulemap";
@@ -680,13 +704,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -707,7 +730,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CamScrollView_Example/Pods-CamScrollView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CamScrollView_Example/Pods-CamScrollView_Example.modulemap";

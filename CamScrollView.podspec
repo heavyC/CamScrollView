@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'CamScrollView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CamScrollView.'
+  s.summary          = 'A scrolling view for Fish Sheet'
+  s.swift_version    = '5.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,7 +20,8 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
-                       DESC
+	A scrollling view tailored to the voice activated spreadsheet for the Fish Sheet.
+DESC
 
   s.homepage         = 'https://github.com/heavyC/CamScrollView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
